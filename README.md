@@ -1,1 +1,7 @@
-# YtDataDrivenC-CSV
+## Video demo of data-driven unit testing in C#
+
+This is the source code for the video demo here: 
+
+https://youtu.be/vCd9sc2jTsk
+
+It is not the whole Visual Studio solution, just those parts needed to illustrate the "standard" and data driven approaches.
