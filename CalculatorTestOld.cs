@@ -7,6 +7,7 @@ namespace CalculatorTest {
 	[TestClass]
 	public class CalculatorTestOld {
 	
+		[TestMethod]
 		public void Adding2PositiveNumbersReturnsTheSum() {
 			var calc = new Calculator();
 
@@ -17,6 +18,7 @@ namespace CalculatorTest {
 			Assert.AreEqual(expectedSum, actualresult);
 		}
 
+		[TestMethod]
 		public void Adding2NegativeNumbersReturnsTheSum() {
 			var calc = new Calculator();
 
@@ -27,6 +29,7 @@ namespace CalculatorTest {
 			Assert.AreEqual(expectedSum, actualresult);
 		}
 
+		[TestMethod]
 		public void Adding1NegativeAnd1PositiveNumbersReturnsTheSum() {
 			var calc = new Calculator();
 
